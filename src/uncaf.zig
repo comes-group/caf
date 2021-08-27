@@ -20,7 +20,7 @@ pub fn main() anyerror!void {
    const stdout = std.io.getStdOut().writer();
 
    var gpa = std.heap.GeneralPurposeAllocator(.{}) {};
-   defer std.debug.assert(!gpa.deinit());
+   // defer std.debug.assert(!gpa.deinit());
 
    const allocator = &gpa.allocator;
 
@@ -44,6 +44,7 @@ pub fn main() anyerror!void {
    });
    defer output_directory.close();
 
+   std.log.info("unpacking archive", .{});
    var archive = try Archive.read(allocator, input_file.reader());
    defer archive.deinit();
    try caf.unpack(&archive, output_directory);

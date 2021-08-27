@@ -39,6 +39,7 @@ pub const Archive = struct {
    /// the file table itself, and the index's entries.
    pub fn deinit(self: *Archive) void {
       if (self.allocator) |allocator| {
+         log.info("deallocating the archive", .{});
          for (self.index.entries) |entry| {
             allocator.free(entry.name);
          }
@@ -374,11 +375,19 @@ fn Parser(comptime R: type) type {
       }
 
       fn matchString(self: *Self, comptime string: []const u8) !void {
-         if (!self.testString(string)) return error.UnexpectedInput;
+         if (!self.testString(string)) {
+            log.err("could not match string {s} at byte {}", .{string, self.position});
+            return error.UnexpectedInput;
+         }
       }
 
       fn matchLineBreak(self: *Self) !void {
-         if (!parsing.matchChar(self.input, &self.position, '\n')) return error.MissingLineBreak;
+         if (!parsing.matchChar(self.input, &self.position, '\n')) {
+            log.err("missing line break at byte {}", .{self.position});
+            log.info("offending character: '{c}'", .{self.input[self.position]});
+            log.info("surrounding characters: {s}", .{self.input[self.position - 5..self.position + 5]});
+            return error.MissingLineBreak;
+         }
       }
 
       fn readHeader(self: *Self) !void {
@@ -600,6 +609,7 @@ const numbers = struct {
       var got_irregular_tens = false;
       var got_tens = false;
       var got_hundreds = false;
+      var got_smaller_than_hundreds = false;
       // hundreds
       inline for (hundreds) |string, index| {
          if (parsing.matchString(input, position, string)) {
@@ -608,6 +618,7 @@ const numbers = struct {
          }
       }
       // skip space after hundreds
+      const before_space_before_hundreds = position.*;
       if (got_hundreds and !parsing.matchChar(input, position, ' ')) return result;
       // irregular tens
       inline for (irregular_tens) |string, index| {
@@ -615,6 +626,7 @@ const numbers = struct {
             result += (@truncate(u8, index) + 2) * 10;
             got_tens = true;
             got_irregular_tens = true;
+            got_smaller_than_hundreds = true;
          }
       }
       // regular tens
@@ -624,6 +636,7 @@ const numbers = struct {
             if (parsing.matchString(input, position, string) and parsing.matchString(input, position, "dziesiąt")) {
                result += (@truncate(u8, index) + 5) * 10;
                got_tens = true;
+               got_smaller_than_hundreds = true;
             } else {
                position.* = previous_position;
             }
@@ -636,6 +649,7 @@ const numbers = struct {
          if (parsing.matchString(input, position, string)) {
             result += @truncate(u8, index) + 10;
             got_teens = true;
+            got_smaller_than_hundreds = true;
          }
       }
       // ones
@@ -643,9 +657,12 @@ const numbers = struct {
          inline for (ones) |string, index| {
             if (parsing.matchString(input, position, string)) {
                result += @truncate(u8, index) + 1;
+               got_smaller_than_hundreds = true;
             }
          }
       }
+      if (!got_smaller_than_hundreds)
+         position.* = before_space_before_hundreds;
       return result;
    }
 
