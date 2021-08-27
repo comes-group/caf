@@ -1,0 +1,256 @@
+zero
+jeden
+dwa
+trzy
+cztery
+pięć
+sześć
+siedem
+osiem
+dziewięć
+dziesięć
+jedenaście
+dwanaście
+trzynaście
+czternaście
+piętnaście
+szesnaście
+siedemnaście
+osiemnaście
+dziewiętnaście
+dwadzieścia
+dwadzieścia jeden
+dwadzieścia dwa
+dwadzieścia trzy
+dwadzieścia cztery
+dwadzieścia pięć
+dwadzieścia sześć
+dwadzieścia siedem
+dwadzieścia osiem
+dwadzieścia dziewięć
+trzydzieści
+trzydzieści jeden
+trzydzieści dwa
+trzydzieści trzy
+trzydzieści cztery
+trzydzieści pięć
+trzydzieści sześć
+trzydzieści siedem
+trzydzieści osiem
+trzydzieści dziewięć
+czterdzieści
+czterdzieści jeden
+czterdzieści dwa
+czterdzieści trzy
+czterdzieści cztery
+czterdzieści pięć
+czterdzieści sześć
+czterdzieści siedem
+czterdzieści osiem
+czterdzieści dziewięć
+pięćdziesiąt
+pięćdziesiąt jeden
+pięćdziesiąt dwa
+pięćdziesiąt trzy
+pięćdziesiąt cztery
+pięćdziesiąt pięć
+pięćdziesiąt sześć
+pięćdziesiąt siedem
+pięćdziesiąt osiem
+pięćdziesiąt dziewięć
+sześćdziesiąt
+sześćdziesiąt jeden
+sześćdziesiąt dwa
+sześćdziesiąt trzy
+sześćdziesiąt cztery
+sześćdziesiąt pięć
+sześćdziesiąt sześć
+sześćdziesiąt siedem
+sześćdziesiąt osiem
+sześćdziesiąt dziewięć
+siedemdziesiąt
+siedemdziesiąt jeden
+siedemdziesiąt dwa
+siedemdziesiąt trzy
+siedemdziesiąt cztery
+siedemdziesiąt pięć
+siedemdziesiąt sześć
+siedemdziesiąt siedem
+siedemdziesiąt osiem
+siedemdziesiąt dziewięć
+osiemdziesiąt
+osiemdziesiąt jeden
+osiemdziesiąt dwa
+osiemdziesiąt trzy
+osiemdziesiąt cztery
+osiemdziesiąt pięć
+osiemdziesiąt sześć
+osiemdziesiąt siedem
+osiemdziesiąt osiem
+osiemdziesiąt dziewięć
+dziewięćdziesiąt
+dziewięćdziesiąt jeden
+dziewięćdziesiąt dwa
+dziewięćdziesiąt trzy
+dziewięćdziesiąt cztery
+dziewięćdziesiąt pięć
+dziewięćdziesiąt sześć
+dziewięćdziesiąt siedem
+dziewięćdziesiąt osiem
+dziewięćdziesiąt dziewięć
+sto
+sto jeden
+sto dwa
+sto trzy
+sto cztery
+sto pięć
+sto sześć
+sto siedem
+sto osiem
+sto dziewięć
+sto dziesięć
+sto jedenaście
+sto dwanaście
+sto trzynaście
+sto czternaście
+sto piętnaście
+sto szesnaście
+sto siedemnaście
+sto osiemnaście
+sto dziewiętnaście
+sto dwadzieścia
+sto dwadzieścia jeden
+sto dwadzieścia dwa
+sto dwadzieścia trzy
+sto dwadzieścia cztery
+sto dwadzieścia pięć
+sto dwadzieścia sześć
+sto dwadzieścia siedem
+sto dwadzieścia osiem
+sto dwadzieścia dziewięć
+sto trzydzieści
+sto trzydzieści jeden
+sto trzydzieści dwa
+sto trzydzieści trzy
+sto trzydzieści cztery
+sto trzydzieści pięć
+sto trzydzieści sześć
+sto trzydzieści siedem
+sto trzydzieści osiem
+sto trzydzieści dziewięć
+sto czterdzieści
+sto czterdzieści jeden
+sto czterdzieści dwa
+sto czterdzieści trzy
+sto czterdzieści cztery
+sto czterdzieści pięć
+sto czterdzieści sześć
+sto czterdzieści siedem
+sto czterdzieści osiem
+sto czterdzieści dziewięć
+sto pięćdziesiąt
+sto pięćdziesiąt jeden
+sto pięćdziesiąt dwa
+sto pięćdziesiąt trzy
+sto pięćdziesiąt cztery
+sto pięćdziesiąt pięć
+sto pięćdziesiąt sześć
+sto pięćdziesiąt siedem
+sto pięćdziesiąt osiem
+sto pięćdziesiąt dziewięć
+sto sześćdziesiąt
+sto sześćdziesiąt jeden
+sto sześćdziesiąt dwa
+sto sześćdziesiąt trzy
+sto sześćdziesiąt cztery
+sto sześćdziesiąt pięć
+sto sześćdziesiąt sześć
+sto sześćdziesiąt siedem
+sto sześćdziesiąt osiem
+sto sześćdziesiąt dziewięć
+sto siedemdziesiąt
+sto siedemdziesiąt jeden
+sto siedemdziesiąt dwa
+sto siedemdziesiąt trzy
+sto siedemdziesiąt cztery
+sto siedemdziesiąt pięć
+sto siedemdziesiąt sześć
+sto siedemdziesiąt siedem
+sto siedemdziesiąt osiem
+sto siedemdziesiąt dziewięć
+sto osiemdziesiąt
+sto osiemdziesiąt jeden
+sto osiemdziesiąt dwa
+sto osiemdziesiąt trzy
+sto osiemdziesiąt cztery
+sto osiemdziesiąt pięć
+sto osiemdziesiąt sześć
+sto osiemdziesiąt siedem
+sto osiemdziesiąt osiem
+sto osiemdziesiąt dziewięć
+sto dziewięćdziesiąt
+sto dziewięćdziesiąt jeden
+sto dziewięćdziesiąt dwa
+sto dziewięćdziesiąt trzy
+sto dziewięćdziesiąt cztery
+sto dziewięćdziesiąt pięć
+sto dziewięćdziesiąt sześć
+sto dziewięćdziesiąt siedem
+sto dziewięćdziesiąt osiem
+sto dziewięćdziesiąt dziewięć
+dwieście
+dwieście jeden
+dwieście dwa
+dwieście trzy
+dwieście cztery
+dwieście pięć
+dwieście sześć
+dwieście siedem
+dwieście osiem
+dwieście dziewięć
+dwieście dziesięć
+dwieście jedenaście
+dwieście dwanaście
+dwieście trzynaście
+dwieście czternaście
+dwieście piętnaście
+dwieście szesnaście
+dwieście siedemnaście
+dwieście osiemnaście
+dwieście dziewiętnaście
+dwieście dwadzieścia
+dwieście dwadzieścia jeden
+dwieście dwadzieścia dwa
+dwieście dwadzieścia trzy
+dwieście dwadzieścia cztery
+dwieście dwadzieścia pięć
+dwieście dwadzieścia sześć
+dwieście dwadzieścia siedem
+dwieście dwadzieścia osiem
+dwieście dwadzieścia dziewięć
+dwieście trzydzieści
+dwieście trzydzieści jeden
+dwieście trzydzieści dwa
+dwieście trzydzieści trzy
+dwieście trzydzieści cztery
+dwieście trzydzieści pięć
+dwieście trzydzieści sześć
+dwieście trzydzieści siedem
+dwieście trzydzieści osiem
+dwieście trzydzieści dziewięć
+dwieście czterdzieści
+dwieście czterdzieści jeden
+dwieście czterdzieści dwa
+dwieście czterdzieści trzy
+dwieście czterdzieści cztery
+dwieście czterdzieści pięć
+dwieście czterdzieści sześć
+dwieście czterdzieści siedem
+dwieście czterdzieści osiem
+dwieście czterdzieści dziewięć
+dwieście pięćdziesiąt
+dwieście pięćdziesiąt jeden
+dwieście pięćdziesiąt dwa
+dwieście pięćdziesiąt trzy
+dwieście pięćdziesiąt cztery
+dwieście pięćdziesiąt pięć
